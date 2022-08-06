@@ -27,6 +27,7 @@
 
 ### Git Checkout
 ```git checkout -- .``` - Rebuild the project to the previous commit. <br />
+```git checkout -- [file-name]``` - Rebuild the file to the previous commit. <br />
 ```git checkout -b [branch-name]``` - Create a new branch and move us there. <br />
 ```git checkout [branch-name]``` - Move to a specific branch.
 
@@ -50,3 +51,18 @@ Is a place where we can isolate our information and then recover it later. <br /
 ```git stash drop [stash-id]``` - Drop a stash. <br />
 ```git stash show [stash-id]``` - Show the files modified. <br />
 ```git stash clear``` - Remove all stash's. 
+
+### Git Rebase
+What is used for?
+
+ - To sort commits.
+ - To fix commit messages.
+ - To join commits.
+ - To separate commits.
+
+```git rebase [branch-name]``` - To sort commits between branchs, you need to be in your feature branch.
+
+```git rebase -i HEAD~[Number of commits before head]``` - Iteractive mode
+ - ```squash``` - use commit, but meld into previous commit.
+ - ```reword``` - use commit, but edit the commit mesage.
+ - ```edit``` - use commit, but stop for amending.
