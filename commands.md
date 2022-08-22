@@ -32,7 +32,7 @@
 ```git checkout [branch-name]``` - Move to a specific branch.
 
 ### Git Checkout Remote Branch
-```git fetch origin [branch-name]``` - Fetchs data from remote to local workspace.
+```git fetch origin [branch-name]``` - Fetchs data from remote to local workspace. <br />
 ```git checkout [branch-name]``` - Move to a specific branch.
 
 
