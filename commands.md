@@ -31,6 +31,11 @@
 ```git checkout -b [branch-name]``` - Create a new branch and move us there. <br />
 ```git checkout [branch-name]``` - Move to a specific branch.
 
+### Git Checkout Remote Branch
+```git fetch origin [branch-name]``` - Fetchs data from remote to local workspace.
+```git checkout [branch-name]``` - Move to a specific branch.
+
+
 ### Git Branch 
 ```git branch``` - List all branches. <br />
 ```git branch [branch-name]``` - Create new branch. <br />
